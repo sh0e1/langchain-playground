@@ -1,3 +1,6 @@
 .env
 *.csv
 *.db
+
+testdata/*
+!testdata/.gitkeep
