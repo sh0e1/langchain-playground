@@ -25,7 +25,7 @@ func run(ctx context.Context) error {
 		return err
 	}
 
-	const dns = "./data.db"
+	const dns = "../../testdata/data.db"
 	db, err := sqldatabase.NewSQLDatabaseWithDSN(sqlite3.EngineName, dns, nil)
 	if err != nil {
 		return err
