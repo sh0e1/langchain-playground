@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@langchain/langgraph": "^0.2.39",
+    "@langchain/openai": "^0.3.17",
     "langchain": "^0.3.11",
     "sqlite3": "^5.1.7",
     "typeorm": "^0.3.20"
