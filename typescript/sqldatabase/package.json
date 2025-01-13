@@ -2,6 +2,7 @@
   "name": "sqldatabase",
   "version": "0.0.1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +17,7 @@
   "dependencies": {
     "@langchain/langgraph": "^0.2.39",
     "langchain": "^0.3.11",
+    "sqlite3": "^5.1.7",
     "typeorm": "^0.3.20"
   }
 }
